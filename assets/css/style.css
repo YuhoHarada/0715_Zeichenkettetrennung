@@ -13,6 +13,19 @@ input[type=text]{
     width: 100%;
 }
 
+input[type=radio]{
+    margin: 10px 0 0;
+}
+
+input[type=button]{
+    margin: 10px 0 0;
+    background: lightblue;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #999;
+}
+
 article{
     display: flex;
 }

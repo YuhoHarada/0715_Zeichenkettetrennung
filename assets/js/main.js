@@ -8,7 +8,8 @@ let davor = document.getElementById("davor")
 function trennen() {
     index = kette.value.indexOf(wort.value)
     if (index == -1) {
-        resultVor.innerHTML = "*** Das Zeichen könnte leicer nicht gefunden werden ***"
+        resultVor.innerHTML = "*** Das Zeichen könnte leider nicht gefunden werden ***"
+        resultHinter.innerHTML = ""
         return false
     }
     if (davor.checked == true) {
